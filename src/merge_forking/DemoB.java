@@ -19,6 +19,7 @@ public class DemoB {
 	   driver.findElement(By.xpath("//span[@data-p='gold-coins-weight-50gms,m']")).click();
 		 Thread.sleep(2000);
 		Assert.assertEquals(driver.getTitle(),"50 gram 24 KT Gold Coin | BlueStone.com");
+		driver.close();
 	}
 
 	}
